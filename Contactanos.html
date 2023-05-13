@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Contáctanos</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="EstiloContactanos.css">
+  <link rel="icon" type="png" href="Imagenes/vaca.png">
+
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Carnes Gonza y Pipe</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="Index.html">Inicio</a>
+                      </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="QuienesSomos.html">¿Quiénes somos?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Carrito.html">Carrito de Compras</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Ubicacion.html">Nuestras Sucursales</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="Contactanos.html">Contáctanos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div >
+      <form id="miFormulario">
+
+          <label>Nombre:</label><br>
+          <input type="text" id="itNombre"  class="campo" /><br />
+          <div id="mensaje1" class="errores">Ingrese su Nombre</div>
+
+          <label>Celular:</label><br>
+          <input type="number" id="itCelular"  class="campo" min="555555555" max="999999999"/><br />
+          <div id="mensaje2" class="errores">Ingrese su número de Celular</div>
+
+          <label>Correo electronico:</label><br />
+          <input type="text" id="itMail"  class="campo" /><br />
+          <div id="mensaje3" class="errores">Ingrese un Email valido</div>
+
+          <label>Pais:</label><br />
+          <input type="text" id="itPais"  class="campo" /><br />
+          <div id="mensaje4" class="errores">Ingrese un Pais</div>
+
+          <label>Ciudad:</label><br />
+          <input type="text" id="itCiudad"  class="campo" /><br />
+          <div id="mensaje5" class="errores">Ingrese una Ciudad</div>
+
+          <label>Consulta:</label><br />
+          <input type="text" id="itConsulta"  class="campo" /><br />
+          <div id="mensaje6" class="errores">Ingrese un comentario y/o sugerencia</div>
+
+          <input type="submit" id="bEnviar" value="Enviar datos" class="boton"/>
+
+      </form>
+  </div>
+
+
+  </main>
+  <footer>
+    <!-- place footer here -->
+  </footer>
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+  </script>
+
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script src = 'Contactanos.js'></script>
+</body>
+
+</html>
