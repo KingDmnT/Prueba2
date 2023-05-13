@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
             id: 1,
             nombre: 'Lomo Liso',
             precio: 7990,
-            imgUrl: 'C:\Users\cabal\Documentos\Carniceria02\Imagenes\c1.png'
+            imgUrl: 'Imagenes\c1.png'
         },
         {
             id: 2,
